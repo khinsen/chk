@@ -1,6 +1,6 @@
 #lang info
 (define collection "chk")
-(define deps '("testing-util-lib"
+(define deps '("rackunit"
                "base"))
 (define build-deps '("sandbox-lib"
                      "scribble-lib" "racket-doc"))
